@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[MoiDev]]></title>
+  <link href="http://mgallego.github.io/atom.xml" rel="self"/>
+  <link href="http://mgallego.github.io/"/>
+  <updated>2013-05-03T20:42:16+02:00</updated>
+  <id>http://mgallego.github.io/</id>
+  <author>
+    <name><![CDATA[Moises Gallego]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[How to Use Emacs to Work With PHP]]></title>
+    <link href="http://mgallego.github.io/blog/how-to-use-emacs-to-work-with-php/"/>
+    <updated>2012-09-23T20:36:00+02:00</updated>
+    <id>http://mgallego.github.io/blog/how-to-use-emacs-to-work-with-php</id>
+    <content type="html"><![CDATA[<h2>php-mode</h2>
+
+
+
+
+<p>Php mode is an emacs major mode design to work with php. The principal functions that add to emacs are:</p>
+
+
+
+
+<ul>
+<li>Syntax hightlighting</li>
+<li>PHP comments</li>
+<li>Search in PHP documentation</li>
+<li>Browse the PHP online manual</li>
+<li>Movements between statements</li>
+
+</ul>
+
+
+
+
+<p>Sincerely this functions are very few in comparation with other programming modes of emacs, therefore I go to explain
+more modes to solved this.</p>
+
+
+
+
+<p><a href="https://github.com/ejmr/php-mode">php mode in github</a></p>
+
+
+
+
+<h2>flymake-phpcs (PHP_CodeSniffer)</h2>
+
+
+
+
+<blockquote><p>Flymake mode is an Emacs mode that allows you to run continuous syntax checks against the current buffer “While U Type”. PHP_CodeSniffer is a static analysis tool for PHP that can be configured to produce a wide range of warnings and errors according to various customizable coding standards. Emacs-flymake-phpcs glues the two together, giving you continuous static analysis as you edit.</p></blockquote>
+
+
+
+
+<!--  more -->
+
+
+
+
+<p>This minor mode allows to check the correct php style with phpcs application.
+It is a very intersting and util mode because it allows us see in real time the errors in own code and a description to fix it.</p>
+
+
+
+
+<p>Currently I have configurated this mode to check the PSR0, 1 and 2 standards.</p>
+
+
+
+
+<p><a href="https://github.com/illusori/emacs-flymake-phpcs">Github repository of flymake-phpcs</a></p>
+
+
+
+
+<p><img alt="CodeSniffer" src="https://lh6.googleusercontent.com/-A74NyxqM3u8/UF8-C5l_v-I/AAAAAAAACiU/seQdC4OGjC0/s800/Captura%2520de%2520pantalla%2520de%25202012-09-23%252018%253A49%253A43.png"/></p>
+
+
+
+
+<h2>YASnippet</h2>
+
+
+
+
+<blockquote><p>YASnippet is a template system for Emacs. It allows you to type an abbreviation and automatically expand it into function templates. Bundled language templates includes: C, C++, C#, Perl, Python, Ruby,
+SQL, LaTeX, HTML, CSS and more. The snippet syntax is inspired from TextMate’s syntax, you can even import most TextMate templates to YASnippet. Watch a demo on YouTube or download a higher resolution version</p></blockquote>
+
+
+
+
+<p><a href="https://github.com/capitaomorte/yasnippet">Yasnippet</a> is a powerful minor emacs mode, is very popular and is a tool to
+use snippets like creation of classes, functions, use php (or another language) functions with parameters and more things.</p>
+
+
+
+
+<p>To use this mode with PHP we need the php snippets, we’ll found this code in <a href="https://github.com/barendt/yasnippet-php-mode">this github repository</a>.
+<img alt="YAsnippet" src="https://lh4.googleusercontent.com/-nJu6luUxYcA/UF8-BxrhR3I/AAAAAAAACiM/b6pgxFPdWDc/s800/Captura%2520de%2520pantalla%2520de%25202012-09-23%252018%253A46%253A57.png"/></p>
+
+
+
+
+<h2>Geben</h2>
+
+
+
+
+<blockquote><p>GEBEN is a software package that interfaces Emacs to DBGp protocol with which you can debug running scripts interactive. At this present DBGp protocol are supported in several script languages with help of custom extensions.</p></blockquote>
+
+
+
+
+<p><a href="https://github.com/blipvert/geben-svn">Geben</a> is a complete mode to debug PHP code with xdebug.</p>
+
+
+
+
+<p><img alt="Geben" src="https://lh4.googleusercontent.com/-InGUj4wx10A/UF8-B6lh_QI/AAAAAAAACiQ/d1hmg2hX54I/s800/Captura%2520de%2520pantalla%2520de%25202012-09-23%252018%253A46%253A13.png"/></p>
+
+
+
+
+<h2>Another useful modes to work with PHP</h2>
+
+
+
+
+<ul>
+<li><a href="https://github.com/auto-complete/auto-complete"><strong>Autocomplete</strong></a> Autocomplete text.</li>
+<li><a href="https://github.com/mgallego/sf.el"><strong>sf-el</strong></a> Mode to simplify the use of Symfony2 (created by me and free to colaborate ;) )</li>
+
+<li><a href="https://github.com/alpaker/Fill-Column-Indicator"><strong>Fill column indicator</strong></a> Show a vertical line in the maximun column. Important if you follow the PSR standards with flymake</li>
+</ul>
+
+
+
+
+<p>If you are interested I share my .emacs file <a href="https://github.com/mgallego/Configs/tree/master/emacs">here</a> and a installation scripts to my modes.</p>
+
+
+
+
+<h4>About my English</h4>
+
+
+
+
+<p>My first language is the spanish, the reason that I write it in english is I want to learn. Please for any mistake or posible correction write a comment in the post. Thank you.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Moving to Jekyll/Octopress: Blogging Like a Hacker]]></title>
+    <link href="http://mgallego.github.io/blog/moving-to-jekyll-slash-octopress-blogging-like-a-hacker/"/>
+    <updated>2012-09-22T20:32:00+02:00</updated>
+    <id>http://mgallego.github.io/blog/moving-to-jekyll-slash-octopress-blogging-like-a-hacker</id>
+    <content type="html"><![CDATA[<p>The idea came when I read the post <a href="http://batsov.com/articles/2011/11/11/blogging-like-a-hacker-evolution/"><strong>Blogging like a hacker: Evolution</strong></a> I start reading the article thinking that talk about how integrate emacs with wordpress, but really the article was more interesting, talk about a framework to create blogs called <a href="https://github.com/mojombo/jekyll"><strong>Jekyll</strong></a> and a framework to use it called <a href="http://octopress.org/"><strong>Octopress</strong></a>.</p></p>
+
+<h2>Jekyll</h2>
+
+
+
+
+<blockquote><p>Jekyll is a simple, blog aware, static site generator. It takes a template directory (representing the raw form of a website), runs it through Textile or Markdown and Liquid converters, and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.</p></blockquote>
+
+
+
+
+<p>Jekyll is a ruby software created by ”<strong>mojombo</strong>” (one of the founders of github) and te function is create statics pages using text in markdown or another format. Perhaps this could be very dificult but really is very simple, with only follow the steps of the Octopress documentation.</p>
+
+
+
+
+<h2>Octopress</h2>
+
+
+
+
+<blockquote><p>Octopress is a framework designed by Brandon Mathis for Jekyll, the blog aware static site generator powering Github Pages. To start blogging with Jekyll, you have to write your own HTML templates, CSS, Javascripts and set up your configuration. But with Octopress All of that is already taken care of. Simply clone or fork Octopress, install dependencies and the theme, and you’re set.</p></blockquote>
+
+
+
+
+<p>Octopress is a framework in Ruby too, that simplify the task of create and publish a blog, and add functionality, plugins and a good design to start.</p>
+
+
+
+
+<p>With both we can make blogs like this without problem and in a small time.</p>
+
+
+
+
+<!--  more -->
+
+
+
+
+<h2>Why?</h2>
+
+
+
+
+<p>Because I like try new things and play with them, get away from the simplicity and the “normal” things.</p>
+
+
+
+
+<p>The fact of can use my own text editor, a format like markdown, the hapiness of deploy the blog totally free in sites like Github o Heroku. All that things are the things that have convinced me to change a simple Wordpress blog to anything more complex but more satisfying like Jekyll/Octopress.</p>
+
+
+
+
+<h2>What are the advantages?</h2>
+
+
+
+
+<ul>
+<li>Free storage in sites like Github or Heroku.</li>
+
+<li>Use Markdown to write the posts.</li>
+<li>Plugins (Twitter, facebook, analytics, Google Plus, disqus, pinboard, delicious).</li>
+<li>Easy to change the theme with Compass and Sass.</li>
+<li>Syntax highlighting.</li>
+<li>Semantic HTML5 template.</li>
+<li>Mobile responsive design.</li>
+</ul>
+
+
+
+
+<h4>About my English</h4>
+
+
+
+
+<p>My first language is the spanish, the reason that I write it in english is I want to learn. Please for any mistake or posible correction write a comment in the post. Thank you.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World]]></title>
+    <link href="http://mgallego.github.io/blog/hello-world/"/>
+    <updated>2012-09-22T20:21:00+02:00</updated>
+    <id>http://mgallego.github.io/blog/hello-world</id>
+    <content type="html"><![CDATA[<h2>Wello World</h2>
+
+
+
+
+<p>This is a test post to try <a href="http://octopress.org/">Octopress</a>
+
+]]></content>
+  </entry>
+  
+</feed>

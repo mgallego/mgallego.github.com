@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+    <url>
+        <loc>http://mgallego.github.io/blog/hello-world/</loc>
+        <lastmod>2013-05-03T20:29:22+02:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://mgallego.github.io/blog/moving-to-jekyll-slash-octopress-blogging-like-a-hacker/
+        </loc>
+        <lastmod>2013-05-03T20:34:23+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://mgallego.github.io/blog/how-to-use-emacs-to-work-with-php/</loc>
+        <lastmod>2013-05-03T20:38:15+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://mgallego.github.io/</loc>
+        <lastmod>2013-05-03T20:38:15+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://mgallego.github.io/robots.txt</loc>
+        <lastmod>2013-05-03T20:09:43+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://mgallego.github.io/blog/archives/</loc>
+        <lastmod>2013-05-03T20:38:15+02:00</lastmod>
+    </url>
+</urlset>

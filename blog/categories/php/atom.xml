@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: php | MoiDev]]></title>
+  <link href="http://mgallego.github.io/blog/categories/php/atom.xml" rel="self"/>
+  <link href="http://mgallego.github.io/"/>
+  <updated>2013-05-03T20:42:16+02:00</updated>
+  <id>http://mgallego.github.io/</id>
+  <author>
+    <name><![CDATA[Moises Gallego]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[How to Use Emacs to Work With PHP]]></title>
+    <link href="http://mgallego.github.io/blog/how-to-use-emacs-to-work-with-php/"/>
+    <updated>2012-09-23T20:36:00+02:00</updated>
+    <id>http://mgallego.github.io/blog/how-to-use-emacs-to-work-with-php</id>
+    <content type="html"><![CDATA[<h2>php-mode</h2>
+
+
+
+
+<p>Php mode is an emacs major mode design to work with php. The principal functions that add to emacs are:</p>
+
+
+
+
+<ul>
+<li>Syntax hightlighting</li>
+<li>PHP comments</li>
+<li>Search in PHP documentation</li>
+<li>Browse the PHP online manual</li>
+<li>Movements between statements</li>
+
+</ul>
+
+
+
+
+<p>Sincerely this functions are very few in comparation with other programming modes of emacs, therefore I go to explain
+more modes to solved this.</p>
+
+
+
+
+<p><a href="https://github.com/ejmr/php-mode">php mode in github</a></p>
+
+
+
+
+<h2>flymake-phpcs (PHP_CodeSniffer)</h2>
+
+
+
+
+<blockquote><p>Flymake mode is an Emacs mode that allows you to run continuous syntax checks against the current buffer “While U Type”. PHP_CodeSniffer is a static analysis tool for PHP that can be configured to produce a wide range of warnings and errors according to various customizable coding standards. Emacs-flymake-phpcs glues the two together, giving you continuous static analysis as you edit.</p></blockquote>
+
+
+
+
+<!--  more -->
+
+
+
+
+<p>This minor mode allows to check the correct php style with phpcs application.
+It is a very intersting and util mode because it allows us see in real time the errors in own code and a description to fix it.</p>
+
+
+
+
+<p>Currently I have configurated this mode to check the PSR0, 1 and 2 standards.</p>
+
+
+
+
+<p><a href="https://github.com/illusori/emacs-flymake-phpcs">Github repository of flymake-phpcs</a></p>
+
+
+
+
+<p><img alt="CodeSniffer" src="https://lh6.googleusercontent.com/-A74NyxqM3u8/UF8-C5l_v-I/AAAAAAAACiU/seQdC4OGjC0/s800/Captura%2520de%2520pantalla%2520de%25202012-09-23%252018%253A49%253A43.png"/></p>
+
+
+
+
+<h2>YASnippet</h2>
+
+
+
+
+<blockquote><p>YASnippet is a template system for Emacs. It allows you to type an abbreviation and automatically expand it into function templates. Bundled language templates includes: C, C++, C#, Perl, Python, Ruby,
+SQL, LaTeX, HTML, CSS and more. The snippet syntax is inspired from TextMate’s syntax, you can even import most TextMate templates to YASnippet. Watch a demo on YouTube or download a higher resolution version</p></blockquote>
+
+
+
+
+<p><a href="https://github.com/capitaomorte/yasnippet">Yasnippet</a> is a powerful minor emacs mode, is very popular and is a tool to
+use snippets like creation of classes, functions, use php (or another language) functions with parameters and more things.</p>
+
+
+
+
+<p>To use this mode with PHP we need the php snippets, we’ll found this code in <a href="https://github.com/barendt/yasnippet-php-mode">this github repository</a>.
+<img alt="YAsnippet" src="https://lh4.googleusercontent.com/-nJu6luUxYcA/UF8-BxrhR3I/AAAAAAAACiM/b6pgxFPdWDc/s800/Captura%2520de%2520pantalla%2520de%25202012-09-23%252018%253A46%253A57.png"/></p>
+
+
+
+
+<h2>Geben</h2>
+
+
+
+
+<blockquote><p>GEBEN is a software package that interfaces Emacs to DBGp protocol with which you can debug running scripts interactive. At this present DBGp protocol are supported in several script languages with help of custom extensions.</p></blockquote>
+
+
+
+
+<p><a href="https://github.com/blipvert/geben-svn">Geben</a> is a complete mode to debug PHP code with xdebug.</p>
+
+
+
+
+<p><img alt="Geben" src="https://lh4.googleusercontent.com/-InGUj4wx10A/UF8-B6lh_QI/AAAAAAAACiQ/d1hmg2hX54I/s800/Captura%2520de%2520pantalla%2520de%25202012-09-23%252018%253A46%253A13.png"/></p>
+
+
+
+
+<h2>Another useful modes to work with PHP</h2>
+
+
+
+
+<ul>
+<li><a href="https://github.com/auto-complete/auto-complete"><strong>Autocomplete</strong></a> Autocomplete text.</li>
+<li><a href="https://github.com/mgallego/sf.el"><strong>sf-el</strong></a> Mode to simplify the use of Symfony2 (created by me and free to colaborate ;) )</li>
+
+<li><a href="https://github.com/alpaker/Fill-Column-Indicator"><strong>Fill column indicator</strong></a> Show a vertical line in the maximun column. Important if you follow the PSR standards with flymake</li>
+</ul>
+
+
+
+
+<p>If you are interested I share my .emacs file <a href="https://github.com/mgallego/Configs/tree/master/emacs">here</a> and a installation scripts to my modes.</p>
+
+
+
+
+<h4>About my English</h4>
+
+
+
+
+<p>My first language is the spanish, the reason that I write it in english is I want to learn. Please for any mistake or posible correction write a comment in the post. Thank you.</p>
+
+]]></content>
+  </entry>
+  
+</feed>

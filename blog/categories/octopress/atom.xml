@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: octopress | MoiDev]]></title>
+  <link href="http://mgallego.github.io/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://mgallego.github.io/"/>
+  <updated>2013-05-03T20:42:16+02:00</updated>
+  <id>http://mgallego.github.io/</id>
+  <author>
+    <name><![CDATA[Moises Gallego]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Moving to Jekyll/Octopress: Blogging Like a Hacker]]></title>
+    <link href="http://mgallego.github.io/blog/moving-to-jekyll-slash-octopress-blogging-like-a-hacker/"/>
+    <updated>2012-09-22T20:32:00+02:00</updated>
+    <id>http://mgallego.github.io/blog/moving-to-jekyll-slash-octopress-blogging-like-a-hacker</id>
+    <content type="html"><![CDATA[<p>The idea came when I read the post <a href="http://batsov.com/articles/2011/11/11/blogging-like-a-hacker-evolution/"><strong>Blogging like a hacker: Evolution</strong></a> I start reading the article thinking that talk about how integrate emacs with wordpress, but really the article was more interesting, talk about a framework to create blogs called <a href="https://github.com/mojombo/jekyll"><strong>Jekyll</strong></a> and a framework to use it called <a href="http://octopress.org/"><strong>Octopress</strong></a>.</p></p>
+
+<h2>Jekyll</h2>
+
+
+
+
+<blockquote><p>Jekyll is a simple, blog aware, static site generator. It takes a template directory (representing the raw form of a website), runs it through Textile or Markdown and Liquid converters, and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.</p></blockquote>
+
+
+
+
+<p>Jekyll is a ruby software created by ”<strong>mojombo</strong>” (one of the founders of github) and te function is create statics pages using text in markdown or another format. Perhaps this could be very dificult but really is very simple, with only follow the steps of the Octopress documentation.</p>
+
+
+
+
+<h2>Octopress</h2>
+
+
+
+
+<blockquote><p>Octopress is a framework designed by Brandon Mathis for Jekyll, the blog aware static site generator powering Github Pages. To start blogging with Jekyll, you have to write your own HTML templates, CSS, Javascripts and set up your configuration. But with Octopress All of that is already taken care of. Simply clone or fork Octopress, install dependencies and the theme, and you’re set.</p></blockquote>
+
+
+
+
+<p>Octopress is a framework in Ruby too, that simplify the task of create and publish a blog, and add functionality, plugins and a good design to start.</p>
+
+
+
+
+<p>With both we can make blogs like this without problem and in a small time.</p>
+
+
+
+
+<!--  more -->
+
+
+
+
+<h2>Why?</h2>
+
+
+
+
+<p>Because I like try new things and play with them, get away from the simplicity and the “normal” things.</p>
+
+
+
+
+<p>The fact of can use my own text editor, a format like markdown, the hapiness of deploy the blog totally free in sites like Github o Heroku. All that things are the things that have convinced me to change a simple Wordpress blog to anything more complex but more satisfying like Jekyll/Octopress.</p>
+
+
+
+
+<h2>What are the advantages?</h2>
+
+
+
+
+<ul>
+<li>Free storage in sites like Github or Heroku.</li>
+
+<li>Use Markdown to write the posts.</li>
+<li>Plugins (Twitter, facebook, analytics, Google Plus, disqus, pinboard, delicious).</li>
+<li>Easy to change the theme with Compass and Sass.</li>
+<li>Syntax highlighting.</li>
+<li>Semantic HTML5 template.</li>
+<li>Mobile responsive design.</li>
+</ul>
+
+
+
+
+<h4>About my English</h4>
+
+
+
+
+<p>My first language is the spanish, the reason that I write it in english is I want to learn. Please for any mistake or posible correction write a comment in the post. Thank you.</p>
+
+]]></content>
+  </entry>
+  
+</feed>
